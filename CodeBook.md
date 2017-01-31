@@ -1,3 +1,108 @@
+Identifiers
+
+activities - The type of activity performed when the corresponding measurements were taken
+subject - The ID of the test subject - Between 1 to 30
+Discrete values in the "activities" column:
+
+laying: subject was laying down during the test
+sitting: subject was sitting during the test
+standing: subject was standing during the test
+walking: subject was walking during the test
+walkingdownstairs: subject was walking downstairs during the test
+walkingupstairs: subject was walking upstairs during the test
+
+Activity 
+Angle(TimeBodyAccelerometerJerkMean),GravityMean)         
+Angle(TimeBodyAccelerometerMean,Gravity)                  
+Angle(TimeBodyGyroscopeJerkMean,GravityMean)               
+Angle(TimeBodyGyroscopeMean,GravityMean)                  
+Angle(X,GravityMean)                                      
+Angle(Y,GravityMean)                                       
+Angle(Z,GravityMean)                                      
+FrequencyBodyAccelerometerJerkMagnitudeMean()              
+FrequencyBodyAccelerometerJerkMagnitudeMeanFreq()          
+FrequencyBodyAccelerometerJerkMagnitudeStandardDeviation()
+FrequencyBodyAccelerometerJerkMean()-X                    
+FrequencyBodyAccelerometerJerkMean()-Y                     
+FrequencyBodyAccelerometerJerkMean()-Z                    
+FrequencyBodyAccelerometerJerkMeanFreq()-X                
+FrequencyBodyAccelerometerJerkMeanFreq()-Y                 
+FrequencyBodyAccelerometerJerkMeanFreq()-Z                
+FrequencyBodyAccelerometerJerkStandardDeviation()-X        
+FrequencyBodyAccelerometerJerkStandardDeviation()-Y       
+FrequencyBodyAccelerometerJerkStandardDeviation()-Z       
+FrequencyBodyAccelerometerMagnitudeMean()                 
+FrequencyBodyAccelerometerMagnitudeMeanFreq()             
+FrequencyBodyAccelerometerMagnitudeStandardDeviation()    
+FrequencyBodyAccelerometerMean()-X                         
+FrequencyBodyAccelerometerMean()-Y                        
+FrequencyBodyAccelerometerMean()-Z                         
+FrequencyBodyAccelerometerMeanFreq()-X                     
+FrequencyBodyAccelerometerMeanFreq()-Y                    
+FrequencyBodyAccelerometerMeanFreq()-Z                     
+FrequencyBodyAccelerometerStandardDeviation()-X           
+FrequencyBodyAccelerometerStandardDeviation()-Y            
+FrequencyBodyAccelerometerStandardDeviation()-Z           
+FrequencyBodyGyroscopeJerkMagnitudeMean()                 
+FrequencyBodyGyroscopeJerkMagnitudeMeanFreq()             
+FrequencyBodyGyroscopeJerkMagnitudeStandardDeviation()    
+FrequencyBodyGyroscopeMagnitudeMean()                     
+FrequencyBodyGyroscopeMagnitudeMeanFreq()                 
+FrequencyBodyGyroscopeMagnitudeStandardDeviation()         
+FrequencyBodyGyroscopeMean()-X                            
+FrequencyBodyGyroscopeMean()-Y                            
+FrequencyBodyGyroscopeMean()-Z                             
+FrequencyBodyGyroscopeMeanFreq()-X                        
+FrequencyBodyGyroscopeMeanFreq()-Y                        
+FrequencyBodyGyroscopeMeanFreq()-Z                        
+FrequencyBodyGyroscopeStandardDeviation()-X               
+FrequencyBodyGyroscopeStandardDeviation()-Y                
+FrequencyBodyGyroscopeStandardDeviation()-Z               
+TimeBodyAccelerometerJerkMagnitudeMean()                  
+TimeBodyAccelerometerJerkMagnitudeStandardDeviation()     
+TimeBodyAccelerometerJerkMean()-X                          
+TimeBodyAccelerometerJerkMean()-Y                         
+TimeBodyAccelerometerJerkMean()-Z                         
+TimeBodyAccelerometerJerkStandardDeviation()-X            
+TimeBodyAccelerometerJerkStandardDeviation()-Y             
+TimeBodyAccelerometerJerkStandardDeviation()-Z            
+TimeBodyAccelerometerMagnitudeMean()                       
+TimeBodyAccelerometerMagnitudeStandardDeviation()         
+TimeBodyAccelerometerMean()-X
+TimeBodyAccelerometerMean()-Y                             
+TimeBodyAccelerometerMean()-Z                          
+TimeBodyAccelerometerStandardDeviation()-X                
+TimeBodyAccelerometerStandardDeviation()-Y                 
+TimeBodyAccelerometerStandardDeviation()-Z                
+TimeBodyGyroscopeJerkMagnitudeMean()                       
+TimeBodyGyroscopeJerkMagnitudeStandardDeviation()         
+TimeBodyGyroscopeJerkMean()-X                              
+TimeBodyGyroscopeJerkMean()-Y                             
+TimeBodyGyroscopeJerkMean()-Z                              
+TimeBodyGyroscopeJerkStandardDeviation()-X                
+TimeBodyGyroscopeJerkStandardDeviation()-Y                 
+TimeBodyGyroscopeJerkStandardDeviation()-Z                
+TimeBodyGyroscopeMagnitudeMean()                           
+TimeBodyGyroscopeMagnitudeStandardDeviation()             
+TimeBodyGyroscopeMean()-X                                  
+TimeBodyGyroscopeMean()-Y                                 
+TimeBodyGyroscopeMean()-Z                                 
+TimeBodyGyroscopeStandardDeviation()-X                    
+TimeBodyGyroscopeStandardDeviation()-Y                     
+TimeBodyGyroscopeStandardDeviation()-Z                    
+TimeGravityAccelerometerMagnitudeMean()                    
+TimeGravityAccelerometerMagnitudeStandardDeviation()      
+TimeGravityAccelerometerMean()-X                           
+TimeGravityAccelerometerMean()-Y                          
+TimeGravityAccelerometerMean()-Z                           
+TimeGravityAccelerometerStandardDeviation()-X             
+TimeGravityAccelerometerStandardDeviation()-Y             
+TimeGravityAccelerometerStandardDeviation()-Z             
+                      
+
+
+Code with remarks
+
 ##set working directory
 setwd("c:/Users/Marc.Haserodt/desktop/Coursera/gcd")
 ##download course files
