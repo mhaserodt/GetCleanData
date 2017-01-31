@@ -1,4 +1,4 @@
-##Identifiers
+##Identifiers.
 
 activities - The type of activity performed when the corresponding measurements were taken
 subject - The ID of the test subject - Between 1 to 30
