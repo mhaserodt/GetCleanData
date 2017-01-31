@@ -1,4 +1,4 @@
-Identifiers
+##Identifiers
 
 activities - The type of activity performed when the corresponding measurements were taken
 subject - The ID of the test subject - Between 1 to 30
@@ -11,6 +11,7 @@ walking: subject was walking during the test
 walkingdownstairs: subject was walking downstairs during the test
 walkingupstairs: subject was walking upstairs during the test
 
+##Measurements
 Activity 
 Angle(TimeBodyAccelerometerJerkMean),GravityMean)         
 Angle(TimeBodyAccelerometerMean,Gravity)                  
@@ -101,7 +102,7 @@ TimeGravityAccelerometerStandardDeviation()-Z
                       
 
 
-Code with remarks
+##Code with remarks
 
 ##set working directory
 setwd("c:/Users/Marc.Haserodt/desktop/Coursera/gcd")
